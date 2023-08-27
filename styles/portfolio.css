@@ -9,10 +9,15 @@ font-family: 'Roboto Mono', monospace;
 font-family: 'Titillium Web', sans-serif;
 }
 
+.header-wrapper{
+    background-color:#FFF6F3;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 100px;
 }
 .nav-title{
     margin-left: 30px;
@@ -40,13 +45,31 @@ nav li a{
     color: gray;
 }
 .test-primary {
-    color: rgb(255, 68, 0)
+    color: #FD6E0A;
 }
 .btn-primary{
     border-radius: 5px;
-    background-color:rgb(255, 68, 0) ;
+    background-color:#FD6E0A ;
     color: white;
     font-size: 20px;
     font-weight: 400;
     padding: 5px;
+}
+
+.banner{
+    padding: 30px 30px 30px 120px;
+    display: flex;
+    text-align: center;
+}
+.images-wrapper{
+    width: 50%;
+}
+.banner-greeting{
+    text-align: left;
+}
+.banner-wrapper{
+    text-align: left;
+}
+.pagrap-wrapper{
+    text-align: left;
 }
