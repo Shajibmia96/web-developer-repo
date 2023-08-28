@@ -193,6 +193,26 @@ nav li a{
         display: flex;
         background-color: #FFF8F3;
         padding: 70px 60px;
+        gap: 200px;
        }
-     
+     .contact{
+        width: 50%;
+     }
+     .massage{
+        width: 50%;
+     }
+      .form ,input[type ="text"] .form ,input[type ="Email"] ,textarea{
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
+        font-size:15px;
+        padding: 10px 10px;
+        border: 0;
+        border-radius: 5px;
+
+        
+     }
+     .socal-media-link a{
+        margin-left: 10px;
+     }
        
