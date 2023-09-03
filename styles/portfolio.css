@@ -46,6 +46,9 @@ nav li{
  
     
 }
+.fa-solid{
+    color: #181818;
+}
 nav li a{
     text-decoration: none;
     color: gray;
@@ -231,15 +234,29 @@ nav li a{
 
        /* Media-Query */
        @media screen and (max-width:576px){
-
+         *{
+            margin: 0px;
+            padding: 0px;
+         }
         nav{
             flex-direction: column-reverse;
         }
         .banner{
-            flex-direction: column
+            flex-direction: column;
+            padding: 20px 0px 0px 0px;
+            background-image: none;
+        }
+        .images-wrapper{
+            width: 100%;
+        }
+        .contact{
+            width: 30%;
+            margin-top: 20px;
+            margin-left: 0px;
         }
         .button-contact{
             display: block;
+            flex-direction: column;
         }
         .pation-wraper{
             margin: 20px;
@@ -247,8 +264,33 @@ nav li a{
         .skill-container{
             flex-direction: column;
         }
+        .mane-wrapper{
+            flex-direction: column;
+        }
         .resume-container{
             flex-direction: column;
+        }
+        .contact-continar{
+            flex-direction: column;
+            padding: 20px;
+           
+            
+        }
+        .contact ,.massage{
+            width: 50%;
+        }
+        .form ,input[type ="text"] .form ,input[type ="Email"] ,textarea{
+            width: 80%;
+        }
+        .about .contact{
+            padding: 10px;
+        }
+        .info{
+            flex-direction: column;
+            padding-bottom: 10px;
+        }
+        .btn-primary{
+            margin-right: 20px;
         }
         
        }
