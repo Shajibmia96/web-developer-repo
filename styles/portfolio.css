@@ -7,10 +7,16 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Titillium Web', sans-serif;
+margin: 0 0 ;
 }
 
 .header-wrapper{
     background-color:#FFF6F3;
+    background-image: url("../images/developer.png");
+   background-repeat: no-repeat;
+   background-position: top left;
+   
+   
 }
 
 nav{
@@ -65,6 +71,7 @@ nav li a{
    background-image: url("../images/header_bg.png");
    background-repeat: no-repeat;
    background-position: bottom right;
+   margin: 0px;
 }
 .images-wrapper{
     /* width: 60%; */
@@ -215,4 +222,33 @@ nav li a{
      .socal-media-link a{
         margin-left: 10px;
      }
-       
+       .fa-solid{
+        color: #fff9f7;
+       }
+
+
+       /* Responsive */
+
+       /* Media-Query */
+       @media screen and (max-width:576px){
+
+        nav{
+            flex-direction: column-reverse;
+        }
+        .banner{
+            flex-direction: column
+        }
+        .button-contact{
+            display: block;
+        }
+        .pation-wraper{
+            margin: 20px;
+        }
+        .skill-container{
+            flex-direction: column;
+        }
+        .resume-container{
+            flex-direction: column;
+        }
+        
+       }
